@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Uncertain body Grasping</title>
+  <title>Unknown Body Slicing</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,14 +52,14 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Gentle Grasping: A Universal Method with Low-Cost Magnetic Tactile Sensors
+            <h1 class="title is-1 publication-title">Imitative Knife Techniques: One-Shot Demonstration for Everyday Objects Manipulation
             </h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
                 <a href="https://0707yiliu.github.io/" target="_blank">Yi Liu</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="https://research.ugent.be/web/person/remko-proesmans-0/en" target="_blank">Remko Proesmans</a>,</span>
+                <!-- <span class="author-block">
+                  <a href="https://research.ugent.be/web/person/remko-proesmans-0/en" target="_blank">Remko Proesmans</a>,</span> -->
                 <span class="author-block">
                   <a href="https://research.ugent.be/web/person/andreas-verleysen-0/en" target="_blank">Andreas Verleysen</a>,</span>
                   <span class="author-block">
@@ -70,7 +70,7 @@
                   <div class="is-size-5 publication-authors">
                     <span class="author-block">IDLab-AIRO, elis, Ghent University - imec<br></span>
                     <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding Author</small></span>
-                    <span class="eql-cntrb"><small><br>Jun 04, 2024</small></span>
+                    <span class="eql-cntrb"><small><br>Sep 25, 2024</small></span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -154,8 +154,8 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            This paper presents a tactile-based grasping scheme with a two-fingered parallel gripper equipped with four low-cost magnetic tactile sensors. The tactile sensor provides three-dimensional information during grasping. Initially, we utilize the magnetic tactile sensors for slip detection during the lifting stage. Furthermore, we propose a force approximation method that uses dynamic force increments to find the object's critical value of slip. The robot can grasp objects with minimal force in this way. To validate the effectiveness of the proposed method, we conducted tests on 20 different everyday objects. The results show that the selected slip detection metric can be deployed on low-cost magnetic tactile sensors and the force approximation method based on dynamic force increments can quickly obtain the critical value of slip for common objects.
-          </p>
+            Cutting everyday objects presents a significant challenge in robotics due to the complexity of knife techniques and the unpredictable mechanical behavior of materials during manipulation. To address this, we propose a novel one-shot demonstration-based learning framework that integrates the imitation of both position and force trajectories of knife techniques using dynamic movement primitives (DMPs). Our approach incorporates a force compensation method with error memory capability to better replicate the force trajectory and introduces relevant constraints on knife techniques, allowing for trajectory re-planning with DMPs during the cutting process.
+            Finally, we design three distinct knife techniques for the robot to perform, and demonstrate these techniques on 15 everyday objects. Ablation experiments are conducted to evaluate the effectiveness of the proposed force compensation and re-planning methods. The results demonstrate that our framework can successfully imitate complex knife techniques and cut previously unknown objects with high precision.          </p>
         </div>
       </div>
     </div>
